@@ -1,0 +1,21 @@
+body {
+    background-image: url("PortugueseTilePatternYellow.png");
+    padding: 24px;
+}
+h1 {
+    font-family: 'Arial Black', sans-serif;
+    padding: 12px;
+    background-color: white;
+    font-size: 320%;
+    color: #ee5252;
+}
+h2 {
+    font-family: 'Arial Black', sans-serif;
+    background-color: white;
+    padding: 12px;
+}
+p {
+    font-family: 'Arial Black', sans-serif;
+    background-color: white;
+    padding: 12px;
+}
