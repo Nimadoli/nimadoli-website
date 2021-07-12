@@ -1,21 +1,52 @@
+* {
+    box-sizing: border-box;
+}
 body {
-    background-image: url("PortugueseTilePatternYellow.png");
-    padding: 24px;
+    padding: 2vw;
+    font-family: 'Arial Black', sans-serif;
+    color: #666;
+}
+header, footer {
+    background-color: #e5e5e5;
+    padding: 2vw;
+    margin-top: 2vw;
+}
+footer {
+    color: #aaa;
+}
+.alignleft {
+    float: left;
+    width: 30%;
+    padding: 0 20px;
+    border-right: 1px solid black;
+    margin-top: 2vw;
+}
+.alignright {
+    float: left;
+    width: 70%;
+    padding: 0 20px;
+    margin-top: 2vw;
 }
 h1 {
-    font-family: 'Arial Black', sans-serif;
-    padding: 12px;
-    background-color: white;
-    font-size: 320%;
-    color: #ee5252;
+    font-size: 6vw;
+    color: deeppink;
 }
 h2 {
-    font-family: 'Arial Black', sans-serif;
-    background-color: white;
-    padding: 12px;
+    font-size: 3vw;
 }
-p {
-    font-family: 'Arial Black', sans-serif;
-    background-color: white;
-    padding: 12px;
+a {
+    text-decoration: none;
+    color: deeppink;
+}
+ul {
+    list-style-type: url("PortugueseTilePatternYellow.png"); /* Check if using an image instead of a pre-existing bullet style works. */
+}
+@media only screen and (max-width: 680px) {
+    .alignleft, .alignright {
+        width: 100%;
+    }   
+    .alignleft {
+        border-right: none;
+        border-bottom: 1px solid black;
+    } 
 }
