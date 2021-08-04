@@ -3,7 +3,8 @@
 }
 body {
     padding: 2vw;
-    font-family: 'Arial Black', sans-serif;
+    font-family: 'Futura', Arial, sans-serif;
+    font-size: 100%;
     color: #666;
 }
 header, footer {
@@ -13,6 +14,10 @@ header, footer {
 }
 footer {
     color: #aaa;
+}
+section {
+    background-color: white;
+    max-width: 100%;
 }
 .alignleft {
     float: left;
@@ -28,11 +33,11 @@ footer {
     margin-top: 2vw;
 }
 h1 {
-    font-size: 6vw;
+    font-size: 4em;
     color: deeppink;
 }
 h2 {
-    font-size: 3vw;
+    font-size: 2em;
 }
 a {
     text-decoration: none;
